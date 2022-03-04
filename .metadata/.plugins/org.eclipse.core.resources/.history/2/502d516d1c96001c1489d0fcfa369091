@@ -1,0 +1,17 @@
+package Module;
+
+public class PiloteInstructeur {
+	String datelicenceInstructeur;
+		 	
+	/* * methodes **/
+	public void enseignerDecollage() {
+		System.out.println("enseigner decollage");
+		// TODO Auto-generated constructor stub
+	}
+
+	public void enseignerAterrisage() {
+		System.out.println("enseigner aterrisage");
+		// TODO Auto-generated method stub
+	}
+
+}

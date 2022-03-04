@@ -1,0 +1,12 @@
+package Module;
+
+public class Lancement {
+
+	public static void main(String[] args) {
+		PiloteInstructeur unPiloteInstructeur = new PiloteInstructeur();
+		
+		
+		// TODO Auto-generated constructor stub
+	}
+
+}

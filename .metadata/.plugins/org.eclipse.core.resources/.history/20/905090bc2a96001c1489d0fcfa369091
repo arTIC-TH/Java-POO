@@ -1,0 +1,37 @@
+package Module;
+/**/
+public class PiloteInstructeur extends Pilote {
+	String datelicenceInstructeur;
+		 	
+	/* * methodes **/
+	public void enseignerDecollage() {
+		System.out.println("enseigner decollage");
+		// TODO Auto-generated constructor stub
+	}
+
+	public void enseignerAterrisage() {
+		System.out.println("enseigner aterrisage");
+		// TODO Auto-generated method stub
+	}
+
+	public void faireAterrir(){
+		System.out.println("PiloteInstructeur :  faire aterrir");
+	}
+
+	public void faireDecoller(){
+		System.out.println("PiloteInstructeur :  faire decoller");
+	}
+	
+	/** les methodes redefinition**/
+	
+	@Override
+	public void faireAterrir(){
+		super.faireAterrir();
+		System.out.println("PiloteInstructeur :  faire aterrir");
+	}
+	
+	@Override
+	public void faireDecoller(){
+		System.out.println("PiloteInstructeur :  faire decoller");
+	}
+}

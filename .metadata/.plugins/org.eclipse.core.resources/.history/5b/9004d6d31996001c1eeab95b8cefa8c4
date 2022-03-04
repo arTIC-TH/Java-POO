@@ -1,0 +1,117 @@
+package Module;
+
+public class Compte {
+    
+	    // Definición de las propiedades de la clase
+	    int compte;
+	    int solde = 0;
+	    private String Nom;
+	    
+	    
+	    
+	      public Compte(int paramSolde){
+	      	this.Nom = paramNom;
+	     } 
+	     
+	       public Compte(int paramNom){
+	      	this.solde = paramSolde;
+	     } 
+	     
+	       public Compte(int paramSolde, String paramNom){
+	      	this.solde = paramSolde;
+	      	this.Nom = paramNom;
+	     } 
+	    
+	   
+	   Compte(int compte1, int initial) {
+	        compte1 = compte;
+	        solde = initial;
+	    } **/// Fin del constructor cuenta
+
+	    	void deposer(int montant) {
+	    	solde = solde + montant;
+	    	}
+
+	    	void retirer(int montant) {
+	    	solde = solde - montant;
+	    	}
+
+	    	void virerVers(int montant, Compte destination) {
+	    	this.retirer(montant);
+	    	destination.deposer(montant);
+	    	}
+
+	    	void afficher() {
+	    	System.out.println("solde: " + solde);
+	    	}
+	    	
+	    	void afficher2() {
+	    	System.out.println("Nom titulaire: " + nomTitulaire);
+        	System.out.println("solde: " + solde);
+	    	}
+        
+	    	void setNomTitulaire(String nomTitulaire){
+        	this.nomTitulaire = nomTitulaire;
+        }
+	    	}
+
+
+
+/*Vous mettrez le code java correspondant à cette question dans la méthode main d’une nouvelle classe 
+appelée TesteCompte. Vous compilerez et testerez ce programme.
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Question 3 
+
+Créez un tableau de dix comptes. Pour cela, notez bien qu’il faut d’abord créer le tableau puis créer successivement les dix comptes à mettre dans les dix cases de ce tableau. 
+Dans chaque case, faites un dépôt de 200 euros plus une somme égale à 100 fois l’indice du compte dans le tableau. 
+
+Ensuite, vous ferez un virement de 20 euros de chaque compte vers chacun des comptes qui le suivent dans le tableau (par exemple, du compte d’indice 5, il faut faire des virements vers les comptes d’indice 6, 7, 8 et 9).
+ 
+Enfin, vous afficherez les soldes de tous les comptes. 
+Ici encore, vous testerez et compilerez le code proposé.
+*
+*/
+
+
+
+
+
+/*Exercice 2: Cet exercice reprend la classe Compte de l’exercice précédent
+
+Question 1:
+Complétez la classe Compte avec une information supplémentaire : le nom du titulaire du compte (type String). Vous modifierez la méthode d’affichage pour qu’elle affiche cette information.
+
+Question 2 
+Créez un constructeur pour la classe Compte. Ce constructeur doit prendre en paramètre le nom du titulaire du compte. Donnez le code de création d’un compte qui appelle ce constructeur
+
+Question 3 
+Faut-il prévoir des méthodes permettant de changer le nom du titulaire du compte ?
+*/
+
+
+
+
+
+
+
+
+
+
+

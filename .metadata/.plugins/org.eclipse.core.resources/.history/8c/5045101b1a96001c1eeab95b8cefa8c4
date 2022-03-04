@@ -1,0 +1,19 @@
+package Module;
+
+public class Pilote {
+	String nom;
+	String prenom;
+	String matricule;
+	
+	/* ** Les méthodes **/
+	public void faireAterrir() {
+		System.out.println("faire aterrir");
+	}
+	
+	public void faireDecoller() {
+		System.out.println("faire decoller");
+	}
+	
+}
+    
+	    

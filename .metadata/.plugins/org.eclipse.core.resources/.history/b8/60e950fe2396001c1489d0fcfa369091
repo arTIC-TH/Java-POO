@@ -1,0 +1,20 @@
+package Module;
+
+public class Lancement {
+
+	public static void main(String[] args) {
+		
+		PiloteInstructeur unPiloteInstructeur = new PiloteInstructeur();
+		
+		unPiloteInstructeur.nom = "BOUHADOUN";
+		unPiloteInstructeur.prenom = "Kamel";
+		unPiloteInstructeur.matricule = "12345";
+		unPiloteInstructeur.enseignerAterrisage();
+		unPiloteInstructeur.enseignerDecollage();
+		unPiloteInstructeur.faireAterrir();
+		unPiloteInstructeur.faireDecoller();
+		
+		// pilote unPilote
+	}
+
+}

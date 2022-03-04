@@ -1,0 +1,53 @@
+package Module;
+
+public class Pilote{
+	
+	
+	private String nom;
+	private String prenom;
+	private String matricule;
+	
+	public Pilote() {
+		
+		static
+		/**
+		 *
+		 */
+		System.out.println("je suis constructeur par defaut: pilote");
+		}
+	
+	//** constructor personalisée
+	public Pilote(String paramNom, String paramPrenom, String paramMatricule) {
+		System.out.println("constructor personalisée par defaut");
+		this.nom=paramNom;
+		this.prenom=paramPrenom;
+		this.matricule=paramMatricule;
+		/**
+		 *
+		 */
+		System.out.println("je suis constrcteur par defaut: pilote");
+		}
+	
+	
+	/* ** Les méthodes **/
+	public void faireAterrir(){
+		System.out.println("Piloto : faire aterrir");
+	}
+	
+	public void faireDecoller(){
+		System.out.println("Piloto : faire decoller");
+	}
+	
+	public void enseignerDecollage() {
+		System.out.println("Piloto enseigner decollage");
+		// TODO Auto-generated constructor stub
+	}
+
+	public void enseignerAterrisage() {
+		System.out.println("Piloto enseigner aterrisage");
+		// TODO Auto-generated method stub
+	}
+	
+}	
+    
+	    

@@ -1,0 +1,42 @@
+package Module;
+/**/
+public class PiloteInstructeur extends Pilote {
+	
+	
+	
+	private String datelicenceInstructeur;
+	
+	public PiloteInstructeur(String paramNom, String paramPrenom, String paramMatricule) {
+	
+		/**
+		 *
+		 */
+		super(paramNom, paramPrenom, paramMatricule);
+		System.out.println("je suis constrcteur par defaut: piloteInstructeur");
+	}
+	
+	/* * methodes **/
+	public void enseignerDecollage() {
+		System.out.println("enseigner decollage");
+		// TODO Auto-generated constructor stub
+	}
+
+	public void enseignerAterrisage() {
+		System.out.println("enseigner aterrisage");
+		// TODO Auto-generated method stub
+	}
+
+	
+	/** les methodes redefinition**/
+	
+	@Override
+	public void faireAterrir(){
+		super.faireAterrir();
+		System.out.println("SuperPiloteInstructeur :  faire aterrir");
+	}
+	
+	@Override
+	public void faireDecoller(){
+		System.out.println("SuperPiloteInstructeur :  faire decoller");
+	}
+}

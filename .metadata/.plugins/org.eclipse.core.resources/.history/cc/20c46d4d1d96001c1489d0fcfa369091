@@ -1,0 +1,9 @@
+package Module;
+
+public class Lancement {
+
+	public Lancement() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
